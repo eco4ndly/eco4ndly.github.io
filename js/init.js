@@ -189,6 +189,7 @@ for (i = 0; i < coll.length; i++) {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
+      this.content = "\u2796"
       content.style.display = "none";
     } else {
       content.style.display = "block";
