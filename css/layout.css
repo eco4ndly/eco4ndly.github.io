@@ -345,6 +345,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: android 2s ease;
   	-webkit-animation: android 2s ease;
 }
+.web {
+    width: 50%;
+    -moz-animation: web 2s ease;
+    -webkit-animation: web 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -362,6 +367,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 94%%;  }
 }
+@-moz-keyframes web {
+  0%   { width: 0px;  }
+  100% { width: 50%%;  }
+}
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -378,6 +387,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes android {
   0%   { width: 0px;  }
   100% { width: 94%;  }
+}
+@-webkit-keyframes web {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
