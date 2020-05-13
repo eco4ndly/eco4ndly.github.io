@@ -848,6 +848,14 @@ properly.
   transition: max-height 0.2s ease-out;
 }
 
+.whiteText {
+   color: #bdbdbd
+}
+.greyText {
+   color: #f5f5f5;
+}
+
+
 
 
 
